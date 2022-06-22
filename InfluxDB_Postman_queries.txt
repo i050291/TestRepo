@@ -1,0 +1,17 @@
+Postman Queries for InfluxDB
+
+Insert data
+
+Header : http://jenkslave37.tools.c.eu-nl-1.cloud.sap:8086/write?db=CTS_InfluxDB&precision=ms
+
+Body:Status,GUID=4d71ff045081,TestName=EAI_BASF_DIL_RegressionTest_if3_v004_04,TestSuiteName=BASF,Environment=ppfk,Result=Passed,ErrorCategory=NA,Log=NA,NodeAssemblyVersion=3.28.0.SNAPSHOT Value="Passed"
+
+
+Querying Data
+
+http://jenkslave37.tools.c.eu-nl-1.cloud.sap:8086/query?pretty=true&db=RITTests
+
+
+Prism InfluxDB
+
+http://dewdfgwp00946.wdf.sap.corp:8086/query?pretty=true&db=RITTests

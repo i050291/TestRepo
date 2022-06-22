@@ -1,0 +1,19 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><login xmlns="urn:sfobject.sfapi.successfactors.com"><credential><companyId>SAPWS1</companyId><username>admin</username><password>admin</password></credential><param><name>batchSize</name><value>200</value></param></login></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+New------------------------------------------------------------------
+
+<?xml version="1.0" encoding="UTF-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+     <ens:loginResponse xmlns:ens="urn:sfobject.sfapi.successfactors.com">
+         <ens:result>
+            <ens:sessionId>A09E409B92A9C18F64AEF8F9BA9A077D.DC13QACANDSFAPI02</ens:sessionId>
+            <ens:msUntilPwdExpiration>3630769146</ens:msUntilPwdExpiration>
+         </ens:result>
+      </ens:loginResponse>
+   </S:Body>
+</S:Envelope>
+
+Header--------------------------------------
+
+Name:Set-Cookie
+Value:JSESSIONID=A09E409B92A9C18F64AEF8F9BA9A077D.DC13QACANDSFAPI02; Path=/sfapi

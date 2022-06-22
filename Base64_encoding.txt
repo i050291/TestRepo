@@ -1,0 +1,7 @@
+Base64 encoding
+
+1. Go to https://www.base64encode.org/
+2. Type username:password in the input textbox .
+3. Click on Encode button.
+4. You get the encoded format in the Result Box.
+5. Add 'Basic' in the biginning, this becomes the Basic Authentication key.
